@@ -3,7 +3,7 @@ int swapSlot, swordSlot, unblockSlot;
 boolean blocked, start, swapped, disable, dispatch, setSwordSlot;
 List<CPacket> blinkPackets = Collections.synchronizedList(new ArrayList<>());
 List<CPacket> regularPackets = Collections.synchronizedList(new ArrayList<>());
-final String[] elevatedUsers = new String[] {"vivivox"};
+final String[] elevatedUsers = new String[] {"usernamehere"};
 boolean shouldRun = false;
 void onLoad() {
     String currentUser = client.getUser();
